@@ -1,0 +1,24 @@
+====================================
+gpu_id:0
+s:0
+t:1
+max_epoch:30
+batch_size:64
+worker:4
+dset:s2m
+lr:0.01
+seed:2024
+cls_par:0.3
+ent_par:1.0
+gent:True
+ent:True
+bottleneck:256
+layer:wn
+classifier:bn
+smooth:0.1
+output:
+issave:True
+class_num:10
+output_dir:seed2024\s2m
+out_file:<_io.TextIOWrapper name='seed2024\\s2m\\log_src.txt' mode='w' encoding='cp1252'>
+
